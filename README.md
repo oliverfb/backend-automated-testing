@@ -60,9 +60,20 @@ Quienes esten familiarizados con el tema, sientanse libres de adelantarse con el
 - Node Package Manager
 - Dockers
 - Postico o PGAdmin (o cualquier interfaz grafica preferida para interactuar con PostgreSQL)
+- Postman
 
 ## Setup
 
-1. Correr `nvm install && nvm use`
-2. Correr `npm install`
-3. Correr `npm run dev`
+Correr los siguientes comandos para instalar las dependencias de NodeJS:
+- `nvm install && nvm use`
+- `npm install`
+
+Correr el siguiente comando para iniciar docker compose:
+
+- `docker-compose up -d`
+**nota**: -d es para correr el contenedor en background
+
+Finalmente, para iniciar el proyecto:
+
+- `npm run dev`
+
