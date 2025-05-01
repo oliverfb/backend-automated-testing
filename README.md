@@ -30,6 +30,16 @@ Una vez el proyecto este en funcionamiento, incluiremos las siguientes tecnologi
 [] Configurar Test Suite - 15-30mins
 [] Crear tests
 
+## Metodologia del Taller
+
+Quienes esten familiarizados con el tema, sientanse libres de adelantarse con el setup de todas las tecnologias y apoyen a sus compañeros.
+
+* Mientras haga live-coding, limitense a escuchar, observar y tomar apuntes
+* Una vez termine el live-coding, hare un commit, push y abrire un pull request
+* Cuando el Pull Request este abierto, todos tendran la oportunidad de escribir el codigo
+* No copiar y pegar el codigo, vayan escribiendolo despacio linea por linea
+* Una vez todos tengan el proyecto funcionando con los ultimos cambios, se mezcla el PR y continuamos con el siguiente tema
+
 ## Requisitos (conocimientos)
 
 - HTTP
