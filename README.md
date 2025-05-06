@@ -19,16 +19,16 @@ Una vez el proyecto este en funcionamiento, incluiremos las siguientes tecnologi
 
 ## Objetivos
 
-[] Proyecto inicial en funcionamiento - 15mins
-   [] ExpressJS
-   [] Contenedor de PostgreSQL en Dockers
-[] Conceptos - 15-mins
-[] Configurar Knex - 15mins
-[] Definir esquema a traves de migraciones con Knex - 30mins
-[] Crear operaciones y endpoints - 30mins
+- [ ] Proyecto inicial en funcionamiento - 15mins
+   - [ ] ExpressJS
+   - [ ] Contenedor de PostgreSQL en Dockers
+- [ ] Conceptos - 15-mins
+- [ ] Configurar Knex - 15mins
+- [ ] Definir esquema a traves de migraciones con Knex - 30mins
+- [ ] Crear operaciones y endpoints - 30mins
 ...15-min break...
-[] Configurar Test Suite - 15-30mins
-[] Crear tests
+- [ ] Configurar Test Suite - 15-30mins
+- [ ] Crear tests
 
 ## Metodologia del Taller
 
