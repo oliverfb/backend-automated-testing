@@ -1,7 +1,10 @@
 const userRouter = require('./users');
+const statusRouter = require('./status');
+
 
 const routes = [
-  { route: '/users', router: userRouter }
+  { route: '/users', router: userRouter },
+  { route: "/status", router: statusRouter}
 ];
 
 const setupRoutes = (app) => {
