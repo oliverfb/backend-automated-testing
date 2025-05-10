@@ -1,4 +1,8 @@
-const routes = [];
+const userRouter = require('./users');
+
+const routes = [
+  { route: '/users', router: userRouter }
+];
 
 const setupRoutes = (app) => {
   routes.forEach(({ route, router }) => {
