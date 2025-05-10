@@ -3,16 +3,26 @@ const userService = require('../services/users');
 const router = express.Router();
 
 async function getUser(req, res) {
-  const user = await userService.getUser(1);
-  return res.send(user);
+  try {
+    const user = await userService.getUser(1);
+    return res.send(user);
+  } catch (err) {
+    console.error(err)
+    return res.send(500)
+  }
 }
 
 async function createUser(req, res) {
-  const user = await userService.createUser(req.body);
-  return res.send(user);
+  try {
+    const user = await userService.createUser(req.body);
+    return res.send(user);
+  } catch (err) {
+    console.error(err)
+    return res.send(500)
+  }
 }
 
-router.use('/get', getUser);
-router.use('/create', createUser);
+router.get('/get', getUser);
+router.post('/create', createUser);
 
 module.exports = router;
