@@ -6,9 +6,9 @@ async function getUser(req, res) {
   try {
     const user = await userService.getUser(1);
     return res.send(user);
-  } catch (err) {
-    console.error(err)
-    return res.send(500)
+  } catch(error) {
+     console.error(error);
+     return res.send(500);
   }
 }
 
@@ -16,9 +16,9 @@ async function createUser(req, res) {
   try {
     const user = await userService.createUser(req.body);
     return res.send(user);
-  } catch (err) {
-    console.error(err)
-    return res.send(500)
+  } catch (error) {
+     console.error(error);
+     return res.send(500);
   }
 }
 
