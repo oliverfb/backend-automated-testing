@@ -1,7 +1,7 @@
 const knex = require('../knex');
 
 async function getUser(id) {
-  const user = await knex.select('*').from('users').where({ id }); // select * from users where id = $id;
+  const user = await knex.select('*').from('users').where({ id }).first(); // select * from users where id = $id;
   return user;
 };
 

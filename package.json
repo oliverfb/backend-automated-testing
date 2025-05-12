@@ -6,7 +6,7 @@
     "start": "node --require dotenv/config src/index.js",
     "dev": "nodemon --require dotenv/config src/index.js",
     "knex": "knex",
-    "test": "mocha"
+    "test": "NODE_ENV=test mocha test/*.test.js --require fixtures.js --exit"
   },
   "keywords": [],
   "author": "",
@@ -20,7 +20,10 @@
     "pg": "^8.15.6"
   },
   "devDependencies": {
+    "chai": "^5.2.0",
     "mocha": "^11.2.2",
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "sinon": "^20.0.0",
+    "supertest": "^7.1.0"
   }
 }
